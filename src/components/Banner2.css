@@ -1,0 +1,73 @@
+.Banner2 {
+    height: 681px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFFFFF;
+    margin-top: 120px;
+
+}
+
+.Banner-container2 {
+    width: 1303px;
+    height: 398px;
+    position: relative;
+    display: flex;
+    /* Adiciona flexbox */
+    align-items: flex-start;
+    background-position: 272px;
+    /* Alinha verticalmente */
+  
+}
+
+.texto {
+    width: 510px;
+    height: auto;
+    /* Remover altura fixa para melhor responsividade */
+    margin-left: 40px;
+    /* Adiciona espaço entre a imagem e o texto */
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+.p {
+    color: #C92071;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+}
+
+.p2{
+    font-family: Inter;
+    color: rgba(71, 71, 71, 1);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.texto span {
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+}
+
+.butonof{
+    display: flex;
+    font-weight: 700;
+    width: 200px;
+    height: 40px;
+    margin-top: 44px;
+    color: rgba(245, 245, 245, 1);
+    background-color: var(--cor-primaria);
+    border: 0px;
+    border-radius: 8px;
+   
+}
+
